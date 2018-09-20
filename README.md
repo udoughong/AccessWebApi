@@ -1,8 +1,7 @@
-# AccessWebApi
+# Solution4AccessWebApi
 
 > WebApiInterface_AspNetCoreApp
 * 網路服務的跨平台程式存取介面
-**AAA**
 ---
 > WebApiInterface_AspNetCoreMVC
 * 網路服務的跨平台模視控存取介面

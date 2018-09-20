@@ -105,3 +105,7 @@ C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiSource\obj\
 C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiSource\obj\Debug\WebApiSource.csproj.CopyComplete
 C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiSource\obj\Debug\WebApiSource.dll
 C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiSource\obj\Debug\WebApiSource.pdb
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiSource\bin\EntityFramework.dll
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiSource\bin\EntityFramework.SqlServer.dll
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiSource\bin\EntityFramework.xml
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiSource\bin\EntityFramework.SqlServer.xml

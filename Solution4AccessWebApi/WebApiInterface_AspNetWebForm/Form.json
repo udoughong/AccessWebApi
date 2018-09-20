@@ -1,0 +1,36 @@
+{
+  "MainData": [
+    {
+      "Name": "Id",
+      "TypeName": "int",
+      "CellName": "Id",
+      "SearchTarget": false
+    },
+    {
+      "Name": "MainName",
+      "TypeName": "string",
+      "CellName": "MainName",
+      "SearchTarget": true
+    }
+  ],
+  "BrenchData": [
+    {
+      "Name": "Id",
+      "TypeName": "int",
+      "CellName": "Id",
+      "SearchTarget": false
+    },
+    {
+      "Name": "BranchName",
+      "TypeName": "string",
+      "CellName": "BranchName",
+      "SearchTarget": true
+    },
+    {
+      "Name": "MainId",
+      "TypeName": "int",
+      "CellName": "MainId",
+      "SearchTarget": false
+    }
+  ]
+}

@@ -10,7 +10,7 @@
 
 .modal {
     width: 90%;
-    /*opacity: 1;*/
+    opacity: 1;
     position: fixed;
     top: 30px;
     left: 0;

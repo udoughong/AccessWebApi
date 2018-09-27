@@ -161,11 +161,19 @@ namespace WebApiInterface_AspNetWebForm
             else
             {
                 #region 進入網站執行程序
-                MainData md = new MainData();
-                ReflashData(GridView1, "MainData", md);
-                InitCreateForm("MainData", ClientCreateUserControlArea, @"/Form.json");
+                //InitCreateForm("MainData", ClientCreateUserControlArea, @"/Form.json");
                 thisSelectedIndex = -1;
                 #endregion
+            }
+
+            MainData md = new MainData();
+            ReflashData(GridView1, "MainData", md);
+
+            if (ViewState["Ctl_count"] != null)
+            {
+                InitCreateForm("MainData", ClientCreateUserControlArea, @"/Form.json");
+                //ViewState["Ctl_count"] = 1;
+                ViewState["Ctl_count"] = 1;
             }
         }
 
@@ -178,6 +186,8 @@ namespace WebApiInterface_AspNetWebForm
         protected void BtnAskCreate_Click(object sender, EventArgs e)
         {
             InitCreateForm("MainData", ClientCreateUserControlArea, @"/Form.json");
+            ViewState["Ctl_count"] = 1;
+            //ViewState["Ctl_count"] = 0;
             ClientCreateUserControl.Visible = true;
         }
 
@@ -189,73 +199,80 @@ namespace WebApiInterface_AspNetWebForm
         /// <param name="inputControlJsonFile">輸入欄位設定表檔案</param>
         private void InitCreateForm(string ClassName, Panel thisPanel, string inputControlJsonFile)
         {
+            thisPanel.Controls.Clear();
             JObject o = JObject.Parse(File.ReadAllText(Server.MapPath("~") + inputControlJsonFile));
             thisPanel.Controls.Add(new Literal() { Text = "<br />" });
             for (int i = 1; i < o[ClassName].Count(); i++)
             {
                 string strName = (string)o[ClassName][i]["Name"];
-                string strCellName = (string)o[ClassName][i]["CellName"];
+         //       string strCellName = (string)o[ClassName][i]["CellName"];
                 Label lbName = new Label();
-                thisPanel.Controls.Add(lbName);
-                lbName.ID = "lb" + strCellName.ToUpper();
+                lbName.ID = "lb" + i.ToString();
                 lbName.Text = strName;
+                thisPanel.Controls.Add(lbName);
                 string strTypeName = (string)o[ClassName][i]["TypeName"];
-                TextBox tbStringCellName = new TextBox();
-                TextBox tbIntCellName = new TextBox();
-                TextBox tbDateTimeCellName = new TextBox();
+                //TextBox txb = new TextBox();
+                TextBox tbCell = new TextBox();
                 switch (strTypeName)
                 {
                     #region example
-                    //case "type":
-                    //TextBox tbTypeCellName = new TextBox();
-                    //thisPanel.Controls.Add(tbTypeCellName);
+                    //case "string":
+                    //tbCell.TextMode = TextBoxMode.SingleLine;
                     //break;
                     #endregion
                     case "string":
-                        thisPanel.Controls.Add(tbStringCellName);
+                        tbCell.TextMode = TextBoxMode.SingleLine; ;
                         break;
                     case "int":
-                        thisPanel.Controls.Add(tbIntCellName);
+                        tbCell.TextMode = TextBoxMode.Number;
                         break;
                     case "DateTime":
-                        thisPanel.Controls.Add(tbDateTimeCellName);
+                        tbCell.TextMode = TextBoxMode.DateTime;
                         break;
                     default:
                         break;
                 }
-                if (!IsPostBack)
-                {
-                    switch (strTypeName)
-                    {
-                        #region example
-                        //case "type":
-                        //{
-                        //tbTypeCellName.ID = "tb" + i.ToString();
-                        //break;
-                        //}
-                        #endregion
-                        case "string":
-                            {
-                                tbStringCellName.ID = "tb" + i.ToString();
-                                break;
-                            }
-                        case "int":
-                            {
-                                tbIntCellName.ID = "tb" + i.ToString();
-                                break;
-                            }
-                        case "DateTime":
-                            {
-                                tbDateTimeCellName.ID = "tb" + i.ToString();
-                                break;
-                            }
-                        default:
-                            break;
-                    }
-                }
-                thisPanel.Controls.Add(new Literal() { Text = "<br />" });
+                //txb.ID = "txt_1";
+                tbCell.ID= "tb" + i.ToString();
+                //Panel1.Controls.Add(txb);
+                thisPanel.Controls.Add(tbCell);
             }
         }
+        //private void InitCreateForm(string ClassName, Panel thisPanel, string inputControlJsonFile)
+        //{
+        //        if (!IsPostBack)
+        //        {
+        //            switch (strTypeName)
+        //            {
+        //                #region example
+        //                //case "type":
+        //                //{
+        //                //tbTypeCellName.ID = "tb" + i.ToString();
+        //                //break;
+        //                //}
+        //                #endregion
+        //                case "string":
+        //                    {
+        //                        tbStringCellName.ID = "tb" + i.ToString();
+        //                        break;
+        //                    }
+        //                case "int":
+        //                    {
+        //                        tbIntCellName.ID = "tb" + i.ToString();
+        //                        break;
+        //                    }
+        //                case "DateTime":
+        //                    {
+        //                        tbDateTimeCellName.ID = "tb" + i.ToString();
+        //                        break;
+        //                    }
+        //                default:
+        //                    break;
+        //            }
+        //        }
+        //        thisPanel.Controls.Add(new Literal() { Text = "<br />" });
+        //    }
+        //}
 
         /// <summary>
         /// 完成新增資料
@@ -265,30 +282,28 @@ namespace WebApiInterface_AspNetWebForm
         protected void BtnFinishCreate_Click(object sender, EventArgs e)
         {
             MainData md = new MainData();
+
             #region 以迴圈的方式將輸入結果導入物件陣列
             int countOfThisClass = GetCountOfThisClass("MainData", @"/Form.json");
             string[] thisCreateObj = new string[countOfThisClass];
-            thisCreateObj[0] = "0";
+            //thisCreateObj[0] = 0;
             for (int i = 1; i < countOfThisClass; i++)
             {
-                Panel thisPanel = GetThisPanel();
-                TextBox thisTextBox = (TextBox)thisPanel.FindControl("tb" + i.ToString());
+                //TextBox txb = (TextBox)Panel1.FindControl("txt_1");
+                TextBox thisTextBox = (TextBox)ClientCreateUserControlArea.FindControl("tb" + i.ToString());
+                //Label1.Text = txb.Text;
                 thisCreateObj[i] = thisTextBox.Text;
             }
             #endregion
             #region[From IMyType] T ParseMyType<T>(object import, T export);
-            md.Id = myType.ParseMyType(thisCreateObj[0], md.Id);
+            md.Id = 1; 
+                //myType.ParseMyType(thisCreateObj[0], md.Id);
             md.MainName = myType.ParseMyType(thisCreateObj[1], md.MainName);
             #endregion
             MyCRUD4Target.Create(md, "MainData");
             //ReflashData();
 
             ReflashData(GridView1, "MainData", md);
-        }
-
-        public Panel GetThisPanel()
-        {
-            return (Panel)FindControl("ClientCreateUserControlArea");
         }
         #endregion
 

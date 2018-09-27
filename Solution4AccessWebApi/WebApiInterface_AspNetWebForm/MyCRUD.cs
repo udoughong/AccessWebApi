@@ -76,6 +76,9 @@ namespace WebApiInterface_AspNetWebForm
                     case "DateTime":
                         import = Convert.ToDateTime(import).ToLocalTime();
                         break;
+                    case "int":
+                        import = Int32.Parse(import.ToString());
+                        break;
                     default:
                         break;
                 }

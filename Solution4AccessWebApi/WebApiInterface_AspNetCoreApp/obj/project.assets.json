@@ -7832,7 +7832,7 @@
       ]
     },
     "System.Diagnostics.DiagnosticSource/4.5.0": {
-      "sha512": "UumL3CJklk5WyEt0eImPmjeuyY1JgJ7Thmg2hAeZGKCv+9iuuAsoc2wcXjypdo3J8VNEmVCH2Bgn/kIw8NI2bA==",
+      "sha512": "1cpU+cbnj4zamChxbdZ+06lkYJjDs46XoIw8EQN/cicVWSW3y9eRF5mLnwRLUQ5LsVpCVa/1vA70B0uEMLfkIg==",
       "type": "package",
       "path": "system.diagnostics.diagnosticsource/4.5.0",
       "files": [
@@ -11500,23 +11500,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\udoughong\\.nuget\\packages\\": {},
+    "C:\\Users\\udoug\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\udoughong\\Source\\Repos\\AccessWebApi\\Solution4AccessWebApi\\WebApiInterface_AspNetCoreApp\\WebApiInterface_AspNetCoreApp.csproj",
+      "projectUniqueName": "C:\\Users\\udoug\\Source\\Repos\\udoughong\\AccessWebApi\\Solution4AccessWebApi\\WebApiInterface_AspNetCoreApp\\WebApiInterface_AspNetCoreApp.csproj",
       "projectName": "WebApiInterface_AspNetCoreApp",
-      "projectPath": "C:\\Users\\udoughong\\Source\\Repos\\AccessWebApi\\Solution4AccessWebApi\\WebApiInterface_AspNetCoreApp\\WebApiInterface_AspNetCoreApp.csproj",
-      "packagesPath": "C:\\Users\\udoughong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\udoughong\\Source\\Repos\\AccessWebApi\\Solution4AccessWebApi\\WebApiInterface_AspNetCoreApp\\obj\\",
+      "projectPath": "C:\\Users\\udoug\\Source\\Repos\\udoughong\\AccessWebApi\\Solution4AccessWebApi\\WebApiInterface_AspNetCoreApp\\WebApiInterface_AspNetCoreApp.csproj",
+      "packagesPath": "C:\\Users\\udoug\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\udoug\\Source\\Repos\\udoughong\\AccessWebApi\\Solution4AccessWebApi\\WebApiInterface_AspNetCoreApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\udoughong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\udoug\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

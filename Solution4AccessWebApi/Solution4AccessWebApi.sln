@@ -3,18 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiInterface_AspNetMVC", "WebApiInterface_AspNetMVC\WebApiInterface_AspNetMVC.csproj", "{CB4895C7-53AF-40D7-9A69-4E9C08434BFA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiInterface_SinglePage", "WebApiInterface_SinglePage\WebApiInterface_SinglePage.csproj", "{9E0BC986-B1B8-401F-ADED-287463DEE5E9}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiInterface_AspNetCoreApp", "WebApiInterface_AspNetCoreApp\WebApiInterface_AspNetCoreApp.csproj", "{BC910F04-CD12-4834-83C8-B2124EEAB520}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiInterface_AspNetCoreMVC", "WebApiInterface_AspNetCoreMVC\WebApiInterface_AspNetCoreMVC.csproj", "{18877B28-50DA-4DA5-9D49-CEDA0F98161D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiInterface_AspNetWebForm", "WebApiInterface_AspNetWebForm\WebApiInterface_AspNetWebForm.csproj", "{EA887699-3051-4A40-8291-E68CCBFA0947}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSource", "WebApiSource\WebApiSource.csproj", "{ED41D09C-ED2C-45AF-9D6F-2C5155431BCD}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -1,0 +1,13 @@
+C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\bin\Debug\WebApiWinFormClient.exe.config
+C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\bin\Debug\WebApiWinFormClient.exe
+C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\bin\Debug\WebApiWinFormClient.pdb
+C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.csprojAssemblyReference.cache
+C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.Form1.resources
+C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.Properties.Resources.resources
+C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.csproj.GenerateResource.cache
+C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.csproj.CoreCompileInputs.cache
+C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.csproj.CopyComplete
+C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.exe
+C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.pdb

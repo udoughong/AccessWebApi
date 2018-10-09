@@ -15,5 +15,8 @@
 > WebApiInterface_SinglePage
 * 網路服務的單一頁面存取介面
 ---
-> WebApiSource
-* 網路服務的資訊來源
+> WebApiWinFormClient
+* 網路服務的單機視窗存取介面
+---
+> WebApiDBSource
+* 網路服務的資料庫資源

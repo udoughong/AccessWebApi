@@ -11,3 +11,16 @@ C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinForm
 C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.csproj.CopyComplete
 C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.exe
 C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.pdb
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\bin\Debug\WebApiWinFormClient.exe.config
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\bin\Debug\WebApiWinFormClient.exe
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\bin\Debug\WebApiWinFormClient.pdb
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.csprojAssemblyReference.cache
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.Form1.resources
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.Properties.Resources.resources
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.csproj.GenerateResource.cache
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.csproj.CoreCompileInputs.cache
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.csproj.CopyComplete
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.exe
+C:\Users\udoug\Source\Repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.pdb

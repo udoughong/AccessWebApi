@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDBSource", "WebApiDBSource\WebApiDBSource.csproj", "{2DC289ED-CC62-4304-9454-3CE0A61AD323}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSourceByXML", "WebApiSourceByXML\WebApiSourceByXML.csproj", "{827886B2-9EA2-4182-9D0D-22C21E556541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSourceByOData4", "WebApiSourceByOData4\WebApiSourceByOData4.csproj", "{98022C7A-0823-4B06-AB57-9E57321A555D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2DC289ED-CC62-4304-9454-3CE0A61AD323}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DC289ED-CC62-4304-9454-3CE0A61AD323}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DC289ED-CC62-4304-9454-3CE0A61AD323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{827886B2-9EA2-4182-9D0D-22C21E556541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827886B2-9EA2-4182-9D0D-22C21E556541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827886B2-9EA2-4182-9D0D-22C21E556541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827886B2-9EA2-4182-9D0D-22C21E556541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98022C7A-0823-4B06-AB57-9E57321A555D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98022C7A-0823-4B06-AB57-9E57321A555D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98022C7A-0823-4B06-AB57-9E57321A555D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98022C7A-0823-4B06-AB57-9E57321A555D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

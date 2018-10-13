@@ -97,6 +97,19 @@ namespace WebApiWinFormClient
         {
             ReadBook();
         }
+
+        //
+        //LOOK>>https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client
+        //
+        //private async void PostBook()
+        //{
+        //    HttpClient client = new HttpClient();
+        //    HttpResponseMessage response = await client.PostAsync("http://localhost:44869/api/Books", null);
+        //    response.EnsureSuccessStatusCode();
+        //    string responseBody = await response.Content.ReadAsStringAsync();
+        //    ShowResult(JsonConvert.DeserializeObject<List<Product>>(responseBody));
+        //}
+
     }
 
     public class Book

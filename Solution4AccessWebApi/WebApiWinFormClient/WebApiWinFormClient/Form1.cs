@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,34 +18,105 @@ namespace WebApiWinFormClient
             InitializeComponent();
         }
 
-        private async void GetAllBooks()
+        public void CreateBook()
         {
-            HttpClient client = new HttpClient();
-            HttpResponseMessage response = await client.GetAsync("http://localhost:44869/api/Books");
-            response.EnsureSuccessStatusCode();
-            string responseBody = await response.Content.ReadAsStringAsync();
-            ShowResult(JsonConvert.DeserializeObject<List<Book>>(responseBody));
-        }
-
-        private void ShowResult(List<Book> list)
-        {
-            listBox1.Items.Clear();
-            for (int i = 0; i < list.Count; i++)
+            using (var client = new HttpClient())
             {
-                listBox1.Items.Add(list[i].Title);
+                client.BaseAddress = new Uri("http://localhost:44869/api/");
+
+                int ValueOfAuthorId = 0;
+
+                var book = new Book()
+                {
+                    Title = textBox1.Text,
+                    Year = int.Parse(textBox2.Text),
+                    Price = int.Parse(textBox3.Text),
+                    Genre = textBox4.Text,
+
+                    AuthorId = ValueOfAuthorId,
+                    Author = new Author()
+                    {
+                        Id = ValueOfAuthorId,
+                        Name = textBox5.Text
+                    }
+                };
+
+                var postTask = client.PostAsJsonAsync<Book>("Books", book);
+                postTask.Wait();
+
+                var result = postTask.Result;
+                if (result.IsSuccessStatusCode)
+                {
+                    var readTask = result.Content.ReadAsAsync<Book>();
+                    readTask.Wait();
+
+                    var insertBook = readTask.Result;
+
+                    label1.Text = String.Format("Book {0} inserted", book.Title);
+                }
             }
         }
 
-        private void BtnGetAllBooks_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            GetAllBooks();
+            CreateBook();
+        }
+
+        public void ReadBook()
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("http://localhost:44869/api/");
+
+                var responseTask = client.GetAsync("Books");
+                responseTask.Wait();
+
+                var result = responseTask.Result;
+                if (result.IsSuccessStatusCode)
+                {
+                    var readTask = result.Content.ReadAsAsync<Book[]>();
+                    readTask.Wait();
+
+                    var books = readTask.Result;
+
+                    listBox1.Items.Clear();
+                    foreach (var item in books)
+                    {
+                        listBox1.Items.Add(item.Title);
+                    }
+                }
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            ReadBook();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ReadBook();
         }
     }
 
-    internal class Book
+    public class Book
     {
         public int Id { get; set; }
         public string Title { get; set; }
-        public string AuthorName { get; set; }
+        public int Year { get; set; }
+        public decimal Price { get; set; }
+        public string Genre { get; set; }
+
+        // Foreign Key
+        public int AuthorId { get; set; }
+        // Navigation property
+        public Author Author { get; set; }
     }
+
+    public class Author
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+    }
+
 }

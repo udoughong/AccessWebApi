@@ -11,3 +11,5 @@ C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinForm
 C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.csproj.CopyComplete
 C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.exe
 C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\obj\Debug\WebApiWinFormClient.pdb
+C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\udoughong\source\repos\AccessWebApi\Solution4AccessWebApi\WebApiWinFormClient\WebApiWinFormClient\bin\Debug\System.Net.Http.Formatting.xml

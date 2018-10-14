@@ -1,18 +1,18 @@
 # Solution4AccessWebApi
 ---
-LOOK>>http://www.tutorialsteacher.com/webapi/web-api-tutorials
+> LOOK>>http://www.tutorialsteacher.com/webapi/web-api-tutorials
 ---
 > WebApiDBSource
 * 網路服務的資訊來源
-LOOK>>https://docs.microsoft.com/en-us/aspnet/web-api/overview/data/
+> LOOK>>https://docs.microsoft.com/en-us/aspnet/web-api/overview/data/
 ---
 > WebApiSourceByOData4
 * 網路服務的OData4資訊來源
-LOOK>>https://docs.microsoft.com/en-us/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/
+> LOOK>>https://docs.microsoft.com/en-us/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/
 ---
 > WebApiSourceByXML
 * 網路服務的XML資訊來源
-LOOK>>https://docs.microsoft.com/en-us/aspnet/web-api/overview/mobile-clients/calling-web-api-from-a-windows-phone-8-application
+> LOOK>>https://docs.microsoft.com/en-us/aspnet/web-api/overview/mobile-clients/calling-web-api-from-a-windows-phone-8-application
 ---
 > WebApiWinFormClient
 * 網路服務的視窗表格存取介面

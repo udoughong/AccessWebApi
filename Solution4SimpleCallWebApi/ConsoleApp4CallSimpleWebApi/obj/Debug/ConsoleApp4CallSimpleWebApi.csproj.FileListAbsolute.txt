@@ -1,0 +1,12 @@
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\ConsoleApp4CallSimpleWebApi\bin\Debug\ConsoleApp4CallSimpleWebApi.exe.config
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\ConsoleApp4CallSimpleWebApi\bin\Debug\ConsoleApp4CallSimpleWebApi.exe
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\ConsoleApp4CallSimpleWebApi\bin\Debug\ConsoleApp4CallSimpleWebApi.pdb
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\ConsoleApp4CallSimpleWebApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\ConsoleApp4CallSimpleWebApi\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\ConsoleApp4CallSimpleWebApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\ConsoleApp4CallSimpleWebApi\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\ConsoleApp4CallSimpleWebApi\obj\Debug\ConsoleApp4CallSimpleWebApi.csprojAssemblyReference.cache
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\ConsoleApp4CallSimpleWebApi\obj\Debug\ConsoleApp4CallSimpleWebApi.csproj.CoreCompileInputs.cache
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\ConsoleApp4CallSimpleWebApi\obj\Debug\ConsoleApp4CallSimpleWebApi.csproj.CopyComplete
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\ConsoleApp4CallSimpleWebApi\obj\Debug\ConsoleApp4CallSimpleWebApi.exe
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\ConsoleApp4CallSimpleWebApi\obj\Debug\ConsoleApp4CallSimpleWebApi.pdb

@@ -1,0 +1,16 @@
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\WindowsFormsApp4CallSimpleWebApi\bin\Debug\WindowsFormsApp4CallSimpleWebApi.exe.config
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\WindowsFormsApp4CallSimpleWebApi\bin\Debug\WindowsFormsApp4CallSimpleWebApi.exe
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\WindowsFormsApp4CallSimpleWebApi\bin\Debug\WindowsFormsApp4CallSimpleWebApi.pdb
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\WindowsFormsApp4CallSimpleWebApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\WindowsFormsApp4CallSimpleWebApi\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\WindowsFormsApp4CallSimpleWebApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\WindowsFormsApp4CallSimpleWebApi\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\WindowsFormsApp4CallSimpleWebApi\bin\Debug\zh-Hant\System.Net.Http.Formatting.resources.dll
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\WindowsFormsApp4CallSimpleWebApi\obj\Debug\WindowsFormsApp4CallSimpleWebApi.csprojAssemblyReference.cache
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\WindowsFormsApp4CallSimpleWebApi\obj\Debug\WindowsFormsApp4CallSimpleWebApi.Form1.resources
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\WindowsFormsApp4CallSimpleWebApi\obj\Debug\WindowsFormsApp4CallSimpleWebApi.Properties.Resources.resources
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\WindowsFormsApp4CallSimpleWebApi\obj\Debug\WindowsFormsApp4CallSimpleWebApi.csproj.GenerateResource.cache
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\WindowsFormsApp4CallSimpleWebApi\obj\Debug\WindowsFormsApp4CallSimpleWebApi.csproj.CoreCompileInputs.cache
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\WindowsFormsApp4CallSimpleWebApi\obj\Debug\WindowsFormsApp4CallSimpleWebApi.csproj.CopyComplete
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\WindowsFormsApp4CallSimpleWebApi\obj\Debug\WindowsFormsApp4CallSimpleWebApi.exe
+C:\Users\udoug\source\repos\Solution4SimpleCallWebApi\WindowsFormsApp4CallSimpleWebApi\obj\Debug\WindowsFormsApp4CallSimpleWebApi.pdb
